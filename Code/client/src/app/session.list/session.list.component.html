@@ -1,0 +1,18 @@
+<div class="content">
+    <h4>Sessions List</h4>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="clickable" *ngFor="let session of sessions" (click)="navigateToSession(session.id)">
+                <td>{{session.id}}</td>
+                <td>{{session.title}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,10 @@
+$theme-colors: (primary: #ff584f);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.content {
+    margin-top: 40px;
+}
+
+.clickable {
+    cursor: pointer;
+}
